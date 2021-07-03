@@ -1,0 +1,103 @@
+.burger{                    /* this is done in making it responsive    & this is to position the burger */
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+}
+.line{
+    margin:5px 3px ;
+    background-color: white;
+    width: 25px;
+    height: 4px;
+}
+
+@media only screen and (max-width:1316px) {
+    .navbar{
+        flex-direction: column;
+        height: 350px;
+        transition: all 0.75s ease-in-out;
+    }
+    .nav-left{
+        justify-content: center;
+        margin: 0 0;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        margin-left: 80px;
+    }
+    .nav-right form{
+        flex-direction: column;
+    }
+    .form-input{
+        text-align: center;
+    } 
+    .nav-right button{
+        width: 50%;
+        margin-left: 42px;
+        color: white;
+        background-color:#4dbf80;
+    }
+    .burger{
+        display: block;
+    }
+    .h-class-resp{
+        height: 65px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    /* for introsec  */
+    .main-box{
+        flex-direction: column;
+    }
+    .first-half{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .grid-items-1{
+        display: none;
+    }
+    .grid-items-2{
+        display: none;
+    }
+    .grid-items-3{
+        display: none;
+    }
+    .head{
+        text-align: center;
+        margin-top: 29px;
+        color: aqua;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 15px;
+        font-size: 2.5rem;
+    }
+    .second-half h3{
+        font-size: 1.5rem;
+    }
+    .reg{
+        box-shadow: 0px 5px 21px 15px;
+    }
+    /* for services section */
+    .boxes-container{
+        flex-direction: column;
+    }
+    .boxes{
+        width: 100%;
+        margin: 30px 0 0 0 ;
+    }
+    #about .right img{
+        margin-top: 110px;
+    }
+    #about h3{
+        margin: 0;
+    }
+    .nonedis{
+        display: block;
+    }
+    
+}
